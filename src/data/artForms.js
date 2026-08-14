@@ -18,7 +18,7 @@ const artForms = [
     id: 3,
     name: "Charcoal",
     description: "Explore bold contrast and texture through charcoal drawing.",
-    image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/student_works/3e7f0c5b-9d8a-4f6e-9c2b-0d1f3e5a1c2b.jpg",
+    image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/art_forms/e09d3314-1985-4d42-b58a-539f003497e1.jpg",
   },
   {
     id: 4,
