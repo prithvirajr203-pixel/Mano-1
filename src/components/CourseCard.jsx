@@ -6,7 +6,7 @@ export default function CourseCard({ course }) {
   return (
     <div className="group rounded-xl2 border border-brand-purple/10 bg-white shadow-card overflow-hidden hover:-translate-y-1 transition">
       <SmartImage
-        src={course.image}
+        src={course.image_url}
         alt={course.title}
         className="w-full h-44 object-cover"
         icon={GraduationCap}
