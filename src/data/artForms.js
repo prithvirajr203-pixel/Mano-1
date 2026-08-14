@@ -18,7 +18,7 @@ const artForms = [
     id: 3,
     name: "Charcoal",
     description: "Explore bold contrast and texture through charcoal drawing.",
-    image: "/images/art-forms/charcoal.jpg",
+    image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/student_works/3e7f0c5b-9d8a-4f6e-9c2b-0d1f3e5a1c2b.jpg",
   },
   {
     id: 4,
@@ -30,19 +30,19 @@ const artForms = [
     id: 5,
     name: "Soft Pastels",
     description: "Learn soft blending and colour layering with pastel medium.",
-    image: "/images/art-forms/soft-pastels.jpg",
+    image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/student_works/6e5f3c2b-4d8a-4f6e-9c2b-0d1f3e5a1c2b.jpg",
   },
   {
     id: 6,
     name: "Acrylic Painting",
     description: "Practical training in acrylic techniques, from basics to detail work.",
-    image: "/images/art-forms/acrylic-painting.jpg",
+    image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/student_works/xxxx.jpg",
   },
   {
     id: 7,
     name: "Watercolour",
     description: "Understand washes, blending and control with watercolour paints.",
-    image: "/images/art-forms/watercolour.jpg",
+    image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/student_works/xxxx.jpg",
   },
   {
     id: 8,
@@ -60,13 +60,13 @@ const artForms = [
     id: 10,
     name: "Texture Art",
     description: "Experiment with tactile, layered techniques for textured artwork.",
-    image: "/images/art-forms/texture-art.jpg",
+    image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/student_works/xxxx.jpg",
   },
   {
     id: 11,
     name: "Oil Painting",
     description: "Learn traditional oil painting methods, from underpainting to detail.",
-    image: "/images/art-forms/oil-painting.jpg",
+    image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/art_forms/3e7f0c5b-9d8a-4f6e-9c2b-0d1f3e5a1c2b.jpg",
   },
   {
     id: 12,
@@ -78,7 +78,7 @@ const artForms = [
     id: 13,
     name: "Mixed Media Art",
     description: "Blend multiple mediums and materials into a single creative piece.",
-    image: "/images/art-forms/mixed-media.jpg",
+    image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/student_works/xxxx.jpg",
   },
 ];
 
