@@ -10,7 +10,6 @@ const studentWorks = [
   { id: 4, title: "Bird on a Branch", category: "Painting", image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/student_works/4aa5d009-1cad-445a-8703-fdd84a36d6e1.jpg" },
   { id: 7, title: "Acrylic Still Life", category: "Painting", image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/student_works/xxxx.jpg " },
   { id: 8, title: "Charcoal Portrait", category: "Drawing", image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/art_forms/e09d3314-1985-4d42-b58a-539f003497e1.jpg" },
-  { id: 9, title: "Mixed Media Piece", category: "Mixed Media", image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/student_works/xxxx.jpg" },
 ];
 
 export default studentWorks;
