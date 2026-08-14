@@ -8,7 +8,7 @@ export default function StudentWorkCard({ work, onClick }) {
       className="group relative rounded-xl2 overflow-hidden shadow-card w-full text-left"
     >
       <SmartImage
-        src={work.image}
+        src={work.image_url}
         alt={work.title}
         className="w-full h-56 object-cover group-hover:scale-105 transition duration-300"
         icon={ImageIcon}

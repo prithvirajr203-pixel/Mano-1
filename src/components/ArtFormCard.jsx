@@ -5,7 +5,7 @@ export default function ArtFormCard({ artForm }) {
   return (
     <div className="rounded-xl2 border border-brand-purple/10 bg-white shadow-card overflow-hidden hover:-translate-y-1 transition">
       <SmartImage
-        src={artForm.image}
+        src={artForm.image_url}
         alt={artForm.name}
         className="w-full h-36 object-cover"
         icon={Brush}
