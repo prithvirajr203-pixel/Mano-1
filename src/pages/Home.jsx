@@ -17,9 +17,18 @@ import siteConfig from "../config/siteConfig";
 
 import { NavLink } from "react-router-dom";
 import { supabase } from "../lib/supabaseClient";
+import useContent from "../hooks/useContent";
 
 export default function Home() {
   const [courses, setCourses] = useState([]);
+
+  const { items: liveArtForms } = useContent({
+    table: "art_forms",
+    fallbackData: artForms.map((form) => ({
+      ...form,
+      image_url: form.image,
+    })),
+  });
 
   useEffect(() => {
     async function loadCourses() {
@@ -120,12 +129,15 @@ export default function Home() {
           />
 
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5">
-            {artForms.slice(0, 8).map((form) => (
-              <ArtFormCard
-                key={form.id}
-                artForm={form}
-              />
-            ))}
+           {liveArtForms.slice(0, 8).map((form) => (
+  <ArtFormCard
+    key={form.id}
+    artForm={{
+      ...form,
+      image: form.image_url || form.image,
+    }}
+  />
+))}
           </div>
 
           <div className="text-center mt-10">
