@@ -12,7 +12,7 @@ const artForms = [
     id: 2,
     name: "Colour Pencil",
     description: "Build vibrant, layered artwork using coloured pencil techniques.",
-    image: "/images/art-forms/colour-pencil.jpg",
+    image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/student_works/93f6c3d6-e714-4e69-a4b2-53ac701712ed.jpg",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const artForms = [
     id: 4,
     name: "Oil Pastels",
     description: "Create rich, blendable artwork with oil pastel techniques.",
-    image: "/images/art-forms/oil-pastels.jpg",
+    image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/student_works/380fe845-2393-4241-94e5-1e044ab902aa.jpg",
   },
   {
     id: 5,
