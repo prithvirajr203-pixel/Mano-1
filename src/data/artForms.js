@@ -6,7 +6,7 @@ const artForms = [
     id: 1,
     name: "Pencil Drawing",
     description: "Master shading, proportion and line work with graphite pencils.",
-    image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/art_forms/xxxx.jpg",
+    image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/student_works/f8c88e69-244a-4eef-bc05-e39277bdd346.jpg",
   },
   {
     id: 2,
