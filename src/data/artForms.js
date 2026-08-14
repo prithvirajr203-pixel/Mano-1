@@ -72,7 +72,7 @@ const artForms = [
     id: 12,
     name: "Sculpture Painting",
     description: "Combine sculpting and painting techniques for 3D artwork.",
-    image: "/images/art-forms/sculpture-painting.jpg",
+    image: "https://xebleaqktakzosahobxv.supabase.co/storage/v1/object/public/academy-images/art_forms/fb5fe570-cc05-45c4-ac3f-529f404c0de9.jpg",
   },
   {
     id: 13,
